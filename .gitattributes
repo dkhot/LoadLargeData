@@ -1,0 +1,4 @@
+# Exclude EF Core scaffolded code from GitHub's language stats — it's
+# generated boilerplate, not hand-written backend logic, and its byte count
+# otherwise dwarfs the actual C#/TypeScript source in the repo.
+OrderReport/OrderReportApi/Migrations/** linguist-generated=true
