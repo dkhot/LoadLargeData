@@ -13,10 +13,7 @@ namespace OrderReportApi
         {
             optionsBuilder.UseSqlServer(
                 "Server=localhost;Database=OrderReportDb;Integrated Security=true; TrustServerCertificate=true;MultipleActiveResultSets=true;"
-            );
-
-            // Optional: reduces internal EF change-tracker chatter
-            //optionsBuilder.ConfigureWarnings(w => w.Ignore(CoreEventId.LazyLoadOnDisposedContextWarning));
+            );            
         }
 
     }
