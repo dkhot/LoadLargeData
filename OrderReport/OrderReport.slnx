@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="OrderReportApi/OrderReportApi.csproj" />
+  <Project Path="SeedBogusData/SeedBogusData.csproj" />
+</Solution>

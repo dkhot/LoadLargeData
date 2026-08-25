@@ -1,0 +1,59 @@
+# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# Visual Studio / .NET
+# Ignore build outputs and IDE folders
+bin/
+obj/
+**/bin/
+**/obj/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Compiled output
+/reportui/dist
+/reportui/tmp
+/reportui/out-tsc
+/reportui/bazel-out
+
+# Node
+/reportui/node_modules
+/reportui/npm-debug.log
+/reportui/yarn-error.log
+
+# Angular build/cache artifacts
+/.angular/
+/reportui/.angular/
+/reportui/.angular/cache
+/reportui/.sass-cache/
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+/reportui/connect.lock
+/reportui/coverage
+/reportui/libpeerconnection.log
+/reportui/testem.log
+/reportui/typings
+__screenshots__/
+
+# System files
+.DS_Store
+Thumbs.db
